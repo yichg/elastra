@@ -1,4 +1,28 @@
-# Elastra
+<h1 align="center">Elastra: A Simulation Framework for Elastic Bodies</h1>
+
+<p align="center">
+  Youran Sun<sup>1,*</sup> &nbsp;·&nbsp; Chugang Yi<sup>1,*</sup> &nbsp;·&nbsp; Xingyu Ren<sup>2</sup> &nbsp;·&nbsp; Haizhao Yang<sup>1</sup>
+  <br>
+  <sup>1</sup> University of Maryland, College Park &nbsp;&nbsp; <sup>2</sup> The Chinese University of Hong Kong &nbsp;&nbsp; <sup>*</sup> Equal contribution
+</p>
+
+<p align="center">
+  <a href="https://contact-rich-loco-manipulation.github.io/"><img alt="Paper: CoRL 2026 Workshop" src="https://img.shields.io/badge/Paper-CoRL%202026%20Workshop-C2410C"></a>
+  <a href="pyproject.toml"><img alt="Python 3.13" src="https://img.shields.io/badge/Python-3.13-3776AB?logo=python&logoColor=white"></a>
+  <a href="https://mujoco.org"><img alt="MuJoCo 3.4.0" src="https://img.shields.io/badge/MuJoCo-3.4.0-1F3A5F"></a>
+  <img alt="Robot: Unitree G1" src="https://img.shields.io/badge/Robot-Unitree%20G1-5A5A5A">
+  <a href="LICENSE"><img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-2EA44F"></a>
+</p>
+
+https://github.com/user-attachments/assets/bd8909f6-a1e3-456a-812d-abceb3023bbc
+
+<p align="center">
+  <b>HoST</b>, the pretrained controller &nbsp;&nbsp;·&nbsp;&nbsp; <b>Ours</b>, HoST with the residual policy trained in Elastra
+</p>
+<p align="center">
+  <img alt="The Unitree G1 getting up on an Elastra mattress, HoST in the top row and ours in the bottom row" src="https://github.com/user-attachments/assets/dbd33a36-5d0d-49b8-aa5b-27121e654d26" width="100%">
+  <img alt="The Unitree G1 getting up on an Elastra trampoline, HoST in the top row and ours in the bottom row" src="https://github.com/user-attachments/assets/8dd122a4-9e12-4375-94eb-f2ec669327fb" width="100%">
+</p>
 
 MuJoCo models of a mattress and a trampoline, and residual policies that let two humanoid get-up controllers (HoST and the ProtoMotions motion tracker, both on the Unitree G1) stand up on them.
 The repository contains the surface models, the success criterion, the evaluation and training code, the initial states, and the two trained residual policies.
@@ -31,6 +55,11 @@ Every file is checked against the sha256 in `conf/assets/default.yaml`.
 `--skip-bones` skips the BONES-SEED clips; HoST then runs, ProtoMotions does not.
 
 ## Surfaces
+
+<p align="center">
+  <img alt="The mattress and trampoline models, with a steel ball on each surface and the sections A-A and B-B" src="https://github.com/user-attachments/assets/bb231953-6d85-4bac-8f8c-214a05e650df" width="85%">
+</p>
+<p align="center"><sub>A steel ball on the simulated mattress and trampoline, with the sections A–A and B–B. The renders use softer parameters than the experiments so that the deformation is visible.</sub></p>
 
 A surface is named `mattress/<bed>`, `trampoline/<name>` or `rigid`.
 
