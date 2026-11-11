@@ -1,9 +1,9 @@
 <h1 align="center">Elastra: A Simulation Framework for Elastic Bodies</h1>
 
 <p align="center">
-  Youran Sun<sup>1,*</sup> &nbsp;·&nbsp; Chugang Yi<sup>1,*</sup> &nbsp;·&nbsp; Xingyu Ren<sup>2</sup> &nbsp;·&nbsp; Haizhao Yang<sup>1</sup>
+  Youran&nbsp;Sun<sup>1,*</sup>&nbsp;&nbsp;&nbsp; Chugang&nbsp;Yi<sup>1,*</sup>&nbsp;&nbsp;&nbsp; Xingyu&nbsp;Ren<sup>2</sup>&nbsp;&nbsp;&nbsp; Haizhao&nbsp;Yang<sup>1</sup>
   <br>
-  <sup>1</sup> University of Maryland, College Park &nbsp;&nbsp; <sup>2</sup> The Chinese University of Hong Kong &nbsp;&nbsp; <sup>*</sup> Equal contribution
+  <sup>1</sup>&nbsp;University&nbsp;of&nbsp;Maryland,&nbsp;College&nbsp;Park&nbsp;&nbsp;&nbsp; <sup>2</sup>&nbsp;The&nbsp;Chinese&nbsp;University&nbsp;of&nbsp;Hong&nbsp;Kong&nbsp;&nbsp;&nbsp; <sup>*</sup>&nbsp;Equal&nbsp;contribution
 </p>
 
 <p align="center">
@@ -17,7 +17,7 @@
 https://github.com/user-attachments/assets/bd8909f6-a1e3-456a-812d-abceb3023bbc
 
 <p align="center">
-  <b>HoST</b>, the pretrained controller &nbsp;&nbsp;·&nbsp;&nbsp; <b>Ours</b>, HoST with the residual policy trained in Elastra
+  <b>HoST</b>,&nbsp;the&nbsp;pretrained&nbsp;controller&nbsp;&nbsp;&nbsp;&nbsp; <b>Ours</b>,&nbsp;HoST&nbsp;with&nbsp;the&nbsp;residual&nbsp;policy
 </p>
 <p align="center">
   <img alt="The Unitree G1 getting up on an Elastra mattress, HoST in the top row and ours in the bottom row" src="https://github.com/user-attachments/assets/dbd33a36-5d0d-49b8-aa5b-27121e654d26" width="100%">
