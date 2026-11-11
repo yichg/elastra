@@ -63,7 +63,6 @@ Every file is checked against the sha256 in `conf/assets/default.yaml`.
 <p align="center">
   <img alt="The mattress and trampoline models, with a steel ball on each surface and the sections A-A and B-B" src="https://github.com/user-attachments/assets/bb231953-6d85-4bac-8f8c-214a05e650df" width="85%">
 </p>
-<p align="center"><sub>A steel ball on the simulated mattress and trampoline, with the sections A–A and B–B. The renders use softer parameters than the experiments so that the deformation is visible.</sub></p>
 
 A surface is named `mattress/<bed>`, `trampoline/<name>` or `rigid`.
 
