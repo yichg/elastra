@@ -14,11 +14,11 @@
   <a href="LICENSE"><img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-2EA44F"></a>
 </p>
 
-<p align="center">
-  If you have a real robot and would like to collaborate on hardware experiments, please <a href="https://github.com/yichg/elastra/issues/new">open an issue</a>.
-</p>
-
 https://github.com/user-attachments/assets/bd8909f6-a1e3-456a-812d-abceb3023bbc
+
+<p align="center">
+  We are seeking collaborators with access to a real robot to conduct hardware experiments with Elastra. If you are interested, we would be pleased to hear from you. Please <a href="https://github.com/yichg/elastra/issues/new">open an issue</a> to get in touch.
+</p>
 
 <p align="center">
   <b>HoST</b>,&nbsp;the&nbsp;pretrained&nbsp;controller&nbsp;&nbsp;&nbsp;&nbsp; <b>Ours</b>,&nbsp;HoST&nbsp;with&nbsp;the&nbsp;residual&nbsp;policy
