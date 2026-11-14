@@ -7,7 +7,12 @@
 </p>
 
 <p align="center">
-  <a href="https://contact-rich-loco-manipulation.github.io/"><img alt="Paper: CoRL 2026 Workshop" src="https://img.shields.io/badge/Paper-CoRL%202026%20Workshop-C2410C"></a>
+  <a href="https://arxiv.org/abs/2611.15112"><img alt="arXiv 2611.15112" src="https://img.shields.io/badge/arXiv-2611.15112-B31B1B?logo=arxiv&logoColor=white"></a>
+  <a href="https://huggingface.co/papers/2611.15112"><img alt="Paper page on Hugging Face" src="https://img.shields.io/badge/Hugging%20Face-Paper-FFD21E?logo=huggingface&logoColor=FFD21E"></a>
+  <a href="https://huggingface.co/chugangyi/elastra-host-residual"><img alt="HoST residual policy on Hugging Face" src="https://img.shields.io/badge/Model-HoST%20residual-FFD21E?logo=huggingface&logoColor=FFD21E"></a>
+  <a href="https://huggingface.co/chugangyi/elastra-protomotions-residual"><img alt="ProtoMotions residual policy on Hugging Face" src="https://img.shields.io/badge/Model-ProtoMotions%20residual-FFD21E?logo=huggingface&logoColor=FFD21E"></a>
+  <a href="https://contact-rich-loco-manipulation.github.io/"><img alt="CoRL 2026 Workshop" src="https://img.shields.io/badge/CoRL%202026-Workshop-C2410C"></a>
+  <br>
   <a href="pyproject.toml"><img alt="Python 3.13" src="https://img.shields.io/badge/Python-3.13-3776AB?logo=python&logoColor=white"></a>
   <a href="https://mujoco.org"><img alt="MuJoCo 3.4.0" src="https://img.shields.io/badge/MuJoCo-3.4.0-1F3A5F"></a>
   <img alt="Robot: Unitree G1" src="https://img.shields.io/badge/Robot-Unitree%20G1-5A5A5A">
@@ -31,7 +36,8 @@ https://github.com/user-attachments/assets/bd8909f6-a1e3-456a-812d-abceb3023bbc
 MuJoCo models of a mattress and a trampoline, and residual policies that let two humanoid get-up controllers (HoST and the ProtoMotions motion tracker, both on the Unitree G1) stand up on them.
 The repository contains the surface models, the success criterion, the evaluation and training code, the initial states, and the two trained residual policies.
 
-The paper, *Elastra: A Simulation Framework for Elastic Bodies*, is accepted at the [CoRL 2026 Workshop on Open Problems in Contact-Rich Loco-Manipulation](https://contact-rich-loco-manipulation.github.io/).
+The paper, [*Elastra: A Simulation Framework for Elastic Bodies*](https://arxiv.org/abs/2611.15112), is accepted at the [CoRL 2026 Workshop on Open Problems in Contact-Rich Loco-Manipulation](https://contact-rich-loco-manipulation.github.io/).
+The two trained residual policies are also on Hugging Face, as [elastra-host-residual](https://huggingface.co/chugangyi/elastra-host-residual) and [elastra-protomotions-residual](https://huggingface.co/chugangyi/elastra-protomotions-residual).
 
 ## Install
 
@@ -169,6 +175,20 @@ data/            initial states, a measured mattress load-deflection curve (data
 checkpoints/     the trained residual policies (Git LFS, docs/results.md)
 docs/            results, validation and calibration (figures in docs/figures, Git LFS)
 tests/           unit tests
+```
+
+## Citation
+
+```bibtex
+@misc{sun2026elastra,
+  title         = {Elastra: A Simulation Framework for Elastic Bodies},
+  author        = {Youran Sun and Chugang Yi and Xingyu Ren and Haizhao Yang},
+  year          = {2026},
+  eprint        = {2611.15112},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.RO},
+  url           = {https://arxiv.org/abs/2611.15112}
+}
 ```
 
 ## License
